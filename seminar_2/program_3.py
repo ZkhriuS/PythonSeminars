@@ -7,7 +7,7 @@
 num = int(input("Введите число n > "))
 numbers = []
 sum = 0
-for i in range(1, num+1):
-    numbers.append(round((1+1/i)**i, 2))
-    sum += numbers[i-1]
+for i in range(1, num + 1):
+    numbers.append(round((1 + 1/i)**i, 2))
+    sum += numbers[i - 1]
 print(f"Для n={num} {numbers}. Сумма {sum}")

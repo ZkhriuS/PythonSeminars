@@ -6,6 +6,6 @@
 
 num = int(input("Введите число > "))
 factorials = [1]
-for i in range(2, num+1):
-    factorials.append(factorials[i - 2]*i)
+for i in range(2, num + 1):
+    factorials.append(factorials[i - 2] * i)
 print(factorials)

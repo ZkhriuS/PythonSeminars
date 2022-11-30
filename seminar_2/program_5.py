@@ -12,7 +12,7 @@ test_num = int(input("Введите количество тестов пере�
 for i in range(test_num):
     for i in range(length):
         temp = lst[i]
-        temp_index = (13*lst[length-i-1]+lst[i]*7) % length
+        temp_index = (13*lst[length - i - 1] + lst[i]*7) % length
         lst[i] = lst[temp_index]
         lst[temp_index] = temp
     print(f"Список после перемешивания: {lst}")
