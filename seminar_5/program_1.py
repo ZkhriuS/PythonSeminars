@@ -16,7 +16,6 @@ def append_file(file: str, text: str):
 
 
 source_file = "source_file.txt"
-# target_file = "target_file.txt"
 write_file(source_file, "Введите исходный текст > ")
 text = list(filter(lambda word: not "абв" in word,
             read_file(source_file).split()))
